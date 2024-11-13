@@ -1,0 +1,409 @@
+product_id,product_name,category_id,price
+20002,Laptop,3001,1300
+20384,Air Fryer,3001,70
+20022,Headphones,3001,60
+20001,Smartphone,3001,800
+20390,Instant Pot,3001,90
+20408,USB Desk Fan,3001,50
+20354,Coffee Grinder,3001,40
+20082,Gaming Headset,3001,70
+20406,Mini Projector,3001,25
+20103,Smart Doorbell,3001,130
+20044,Wireless Mouse,3001,40
+20071,Wireless Mouse,3001,20
+20120,Wireless Mouse,3001,15
+20142,Wireless Mouse,3001,15
+20164,Wireless Mouse,3001,15
+20186,Wireless Mouse,3001,15
+20208,Wireless Mouse,3001,15
+20230,Wireless Mouse,3001,15
+20318,Wireless Mouse,3001,15
+20340,Wireless Mouse,3001,15
+20377,Bluetooth Mouse,3001,30
+20349,Portable Blender,3001,35
+20392,Solar Power Bank,3001,30
+20351,Bluetooth Earbuds,3001,60
+20358,Wireless Keyboard,3001,50
+20383,UV Phone Sanitizer,3001,25
+20381,Wireless Ear Muffs,3001,40
+20263,Electric Toothbrush,3001,40
+20285,Electric Toothbrush,3001,40
+20098,Mechanical Keyboard,3001,60
+20364,USB-C Charging Cable,3001,9
+20360,Waterproof Phone Case,3001,10
+20399,Wireless Charging Pad,3001,50
+20004,Jeans,3002,50
+20003,T-shirt,3002,20
+20083,Winter Scarf,3002,15
+20056,Winter Jacket,3002,100
+20057,Wall Art,3003,30
+20005,Table Lamp,3003,40
+20006,Wall Clock,3003,25
+20352,Wall Clock,3003,20
+20391,Bedside Lamp,3003,25
+20374,Laptop Stand,3003,20
+20084,Framed Mirror,3003,50
+20380,Indoor Plants,3003,13
+20403,Wine Decanter,3003,15
+20049,LED Light Strip,3003,20
+20125,LED Light Strip,3003,20
+20147,LED Light Strip,3003,20
+20169,LED Light Strip,3003,20
+20191,LED Light Strip,3003,20
+20213,LED Light Strip,3003,20
+20235,LED Light Strip,3003,20
+20257,LED Light Strip,3003,20
+20279,LED Light Strip,3003,20
+20301,LED Light Strip,3003,20
+20323,LED Light Strip,3003,20
+20345,LED Light Strip,3003,20
+20076,Smart Thermostat,3003,90
+20401,Himalayan Salt Lamp,3003,10
+20367,Aromatherapy Diffuser,3003,35
+20077,Blender,3004,50
+20008,Perfume,3004,50
+20007,Shampoo,3004,10
+20085,Face Mask,3004,3
+20058,Hair Dryer,3004,50
+20376,Sleep Mask,3004,6
+20395,Facial Steamer,3004,35
+20398,Massage Pillow,3004,15
+20059,Mystery Novel,3005,13
+20009,Hardcover Book,3005,15
+20086,Science Fiction Book,3005,17
+20100,Puzzle,3006,13
+20010,LEGO Set,3006,40
+20024,Board Game,3006,25
+20073,Chess Board,3006,10
+20087,Building Blocks,3006,25
+20060,LEGO Technic Set,3006,80
+20088,Football,3007,30
+20356,Binoculars,3007,80
+20407,Massage Gun,3007,80
+20011,Soccer Ball,3007,20
+20154,Hiking Boots,3007,80
+20176,Hiking Boots,3007,80
+20198,Hiking Boots,3007,80
+20220,Hiking Boots,3007,80
+20242,Hiking Boots,3007,80
+20264,Hiking Boots,3007,80
+20286,Hiking Boots,3007,80
+20012,Running Shoes,3007,80
+20061,Tennis Racket,3007,60
+20013,Car Oil,3008,30
+20062,Car Wax,3008,20
+20089,Car Air Filter,3008,13
+20370,Car Phone Mount,3008,10
+20365,Handheld Vacuum,3008,55
+20035,Car Air Freshener,3008,5
+20111,Car Air Freshener,3008,6
+20133,Car Air Freshener,3008,6
+20155,Car Air Freshener,3008,6
+20177,Car Air Freshener,3008,6
+20199,Car Air Freshener,3008,6
+20221,Car Air Freshener,3008,6
+20243,Car Air Freshener,3008,6
+20265,Car Air Freshener,3008,6
+20287,Car Air Freshener,3008,6
+20309,Car Air Freshener,3008,6
+20331,Car Air Freshener,3008,6
+20404,Car Vacuum Cleaner,3008,35
+20014,Multivitamins,3009,13
+20112,Protein Powder,3009,30
+20134,Protein Powder,3009,30
+20156,Protein Powder,3009,30
+20178,Protein Powder,3009,30
+20200,Protein Powder,3009,30
+20222,Protein Powder,3009,30
+20244,Protein Powder,3009,30
+20266,Protein Powder,3009,30
+20288,Protein Powder,3009,30
+20063,Vitamin C Tablets,3009,8
+20090,Omega-3 Supplement,3009,10
+20033,Electric Toothbrush,3009,40
+20153,Electric Toothbrush,3009,40
+20175,Electric Toothbrush,3009,40
+20197,Electric Toothbrush,3009,40
+20219,Electric Toothbrush,3009,40
+20241,Electric Toothbrush,3009,40
+20307,Electric Toothbrush,3009,40
+20329,Electric Toothbrush,3009,40
+20396,Electric Toothbrush,3009,40
+20064,Quinoa,3010,5
+20091,Brown Rice,3010,4
+20025,Canned Soup,3010,2
+20015,Chocolate Bar,3010,3
+20123,Organic Honey,3010,10
+20145,Organic Honey,3010,10
+20167,Organic Honey,3010,10
+20189,Organic Honey,3010,10
+20211,Organic Honey,3010,10
+20233,Organic Honey,3010,10
+20255,Organic Honey,3010,10
+20277,Organic Honey,3010,10
+20299,Organic Honey,3010,10
+20321,Organic Honey,3010,10
+20343,Organic Honey,3010,10
+20113,Organic Pasta,3010,4
+20135,Organic Pasta,3010,4
+20157,Organic Pasta,3010,4
+20179,Organic Pasta,3010,4
+20201,Organic Pasta,3010,4
+20223,Organic Pasta,3010,4
+20245,Organic Pasta,3010,4
+20311,Organic Pasta,3010,4
+20333,Organic Pasta,3010,4
+20074,Whole Wheat Bread,3010,3
+20065,Gold Necklace,3011,300
+20092,Pearl Earrings,3011,90
+20038,Silver Bracelet,3011,80
+20114,Silver Bracelet,3011,50
+20136,Silver Bracelet,3011,50
+20158,Silver Bracelet,3011,50
+20180,Silver Bracelet,3011,50
+20202,Silver Bracelet,3011,50
+20224,Silver Bracelet,3011,50
+20246,Silver Bracelet,3011,50
+20268,Silver Bracelet,3011,50
+20290,Silver Bracelet,3011,50
+20312,Silver Bracelet,3011,50
+20334,Silver Bracelet,3011,50
+20016,Diamond Necklace,3011,500
+20017,Cat Food,3012,9
+20093,Dog Leash,3012,9
+20066,Fish Food,3012,5
+20039,Dog Treats,3012,8
+20115,Dog Treats,3012,8
+20137,Dog Treats,3012,8
+20159,Dog Treats,3012,8
+20181,Dog Treats,3012,8
+20203,Dog Treats,3012,8
+20225,Dog Treats,3012,8
+20247,Dog Treats,3012,8
+20269,Dog Treats,3012,8
+20291,Dog Treats,3012,8
+20313,Dog Treats,3012,8
+20335,Dog Treats,3012,8
+20373,UV Sterilizer,3012,50
+20094,Baby Bib,3013,6
+20018,Baby Onesie,3013,15
+20067,Baby Blanket,3013,17
+20040,Baby Diapers,3013,20
+20116,Baby Diapers,3013,20
+20138,Baby Diapers,3013,20
+20160,Baby Diapers,3013,20
+20182,Baby Diapers,3013,20
+20204,Baby Diapers,3013,20
+20226,Baby Diapers,3013,20
+20248,Baby Diapers,3013,20
+20270,Baby Diapers,3013,20
+20292,Baby Diapers,3013,20
+20314,Baby Diapers,3013,20
+20336,Baby Diapers,3013,20
+20019,Printer,3014,150
+20260,Sewing Kit,3014,18
+20282,Sewing Kit,3014,18
+20041,Laser Printer,3014,200
+20117,Laser Printer,3014,250
+20139,Laser Printer,3014,250
+20161,Laser Printer,3014,250
+20183,Laser Printer,3014,250
+20205,Laser Printer,3014,250
+20227,Laser Printer,3014,250
+20249,Laser Printer,3014,250
+20271,Laser Printer,3014,250
+20293,Laser Printer,3014,250
+20315,Laser Printer,3014,250
+20337,Laser Printer,3014,250
+20105,Desk Organizer,3014,25
+20079,Sewing Machine,3014,150
+20252,Wireless Mouse,3014,15
+20274,Wireless Mouse,3014,15
+20296,Wireless Mouse,3014,15
+20095,Wireless Printer,3014,200
+20020,Camping Tent,3015,90
+20034,Hiking Boots,3015,90
+20110,Hiking Boots,3015,80
+20132,Hiking Boots,3015,80
+20308,Hiking Boots,3015,80
+20330,Hiking Boots,3015,80
+20350,Sleeping Bag,3015,50
+20042,Camping Chair,3015,50
+20069,Camping Chair,3015,30
+20118,Camping Chair,3015,25
+20140,Camping Chair,3015,25
+20162,Camping Chair,3015,25
+20184,Camping Chair,3015,25
+20206,Camping Chair,3015,25
+20228,Camping Chair,3015,25
+20250,Camping Chair,3015,25
+20272,Camping Chair,3015,25
+20294,Camping Chair,3015,25
+20316,Camping Chair,3015,25
+20338,Camping Chair,3015,25
+20096,Picnic Blanket,3015,20
+20385,Backpack Cooler,3015,20
+20405,Outdoor Hammock,3015,40
+20357,Travel Backpack,3015,45
+20021,Toolbox,3016,30
+20043,Chainsaw,3016,80
+20070,Chainsaw,3016,150
+20119,Chainsaw,3016,120
+20141,Chainsaw,3016,120
+20163,Chainsaw,3016,120
+20185,Chainsaw,3016,120
+20207,Chainsaw,3016,120
+20229,Chainsaw,3016,120
+20251,Chainsaw,3016,120
+20273,Chainsaw,3016,120
+20295,Chainsaw,3016,120
+20317,Chainsaw,3016,120
+20339,Chainsaw,3016,120
+20078,Coffee Mug,3016,8
+20361,Multi-Tool,3016,20
+20382,Puzzle Mat,3016,15
+20097,Power Drill,3016,70
+20102,Resistance Bands,3016,15
+20353,Resistance Bands Set,3016,25
+20023,Blu-ray Player,3018,130
+20099,Movie Collection,3018,100
+20362,Portable Speaker,3018,30
+20045,Blu-ray Collection,3018,600
+20072,Blu-ray Collection,3018,80
+20121,Blu-ray Collection,3018,70
+20143,Blu-ray Collection,3018,70
+20165,Blu-ray Collection,3018,70
+20187,Blu-ray Collection,3018,70
+20209,Blu-ray Collection,3018,70
+20231,Blu-ray Collection,3018,70
+20253,Blu-ray Collection,3018,70
+20275,Blu-ray Collection,3018,70
+20297,Blu-ray Collection,3018,70
+20319,Blu-ray Collection,3018,70
+20341,Blu-ray Collection,3018,70
+20046,Chess Set,3019,15
+20122,Chess Set,3019,13
+20144,Chess Set,3019,13
+20166,Chess Set,3019,13
+20188,Chess Set,3019,13
+20210,Chess Set,3019,13
+20232,Chess Set,3019,13
+20254,Chess Set,3019,13
+20276,Chess Set,3019,13
+20298,Chess Set,3019,13
+20320,Chess Set,3019,13
+20342,Chess Set,3019,13
+20101,Cereal Box,3020,5
+20047,Organic Honey,3020,10
+20037,Organic Pasta,3020,4
+20267,Organic Pasta,3020,4
+20289,Organic Pasta,3020,4
+20026,Yoga Mat,3021,20
+20368,Pedometer,3021,13
+20048,Yoga Strap,3021,9
+20075,Yoga Strap,3021,6
+20124,Yoga Strap,3021,9
+20146,Yoga Strap,3021,9
+20168,Yoga Strap,3021,9
+20190,Yoga Strap,3021,9
+20212,Yoga Strap,3021,9
+20234,Yoga Strap,3021,9
+20256,Yoga Strap,3021,9
+20278,Yoga Strap,3021,9
+20300,Yoga Strap,3021,9
+20322,Yoga Strap,3021,9
+20344,Yoga Strap,3021,9
+20036,Protein Powder,3021,30
+20310,Protein Powder,3021,30
+20332,Protein Powder,3021,30
+20366,Fitness Tracker,3021,40
+20389,Fitness Hula Hoop,3021,13
+20027,Lightbulbs,3022,8
+20050,Air Purifier,3022,150
+20126,Air Purifier,3022,130
+20148,Air Purifier,3022,130
+20170,Air Purifier,3022,130
+20192,Air Purifier,3022,130
+20214,Air Purifier,3022,130
+20236,Air Purifier,3022,130
+20258,Air Purifier,3022,130
+20280,Air Purifier,3022,130
+20302,Air Purifier,3022,130
+20324,Air Purifier,3022,130
+20346,Air Purifier,3022,130
+20372,Wireless Charger,3022,25
+20028,Microwave,3023,100
+20104,Hand Mixer,3023,35
+20387,Hand Warmer,3023,10
+20068,Laser Scanner,3023,300
+20379,Electric Kettle,3023,30
+20394,Portable Ice Maker,3023,50
+20359,Digital Thermometer,3023,15
+20109,Electric Toothbrush,3023,40
+20131,Electric Toothbrush,3023,40
+20055,External Hard Drive,3023,90
+20375,Reusable Water Bottle,3023,8
+20051,Bookshelf,3024,130
+20127,Bookshelf,3024,60
+20149,Bookshelf,3024,60
+20171,Bookshelf,3024,60
+20193,Bookshelf,3024,60
+20215,Bookshelf,3024,60
+20237,Bookshelf,3024,60
+20259,Bookshelf,3024,60
+20281,Bookshelf,3024,60
+20303,Bookshelf,3024,60
+20325,Bookshelf,3024,60
+20347,Bookshelf,3024,60
+20029,Coffee Table,3024,150
+20400,Digital Scale,3024,20
+20369,Salad Spinner,3024,17
+20393,Herb Garden Kit,3024,20
+20402,Silicone Baking Mat,3024,30
+20388,Bamboo Cutting Board,3024,17
+20355,Non-Stick Frying Pan,3024,30
+20304,Sewing Kit,3025,18
+20326,Sewing Kit,3025,18
+20348,Sewing Kit,3025,18
+20371,Travel Mug,3025,15
+20397,Wall Stickers,3025,40
+20030,Watercolor Set,3025,13
+20378,Cable Organizer,3025,13
+20106,Cross Stitch Kit,3025,17
+20053,Pinata,3026,15
+20129,Pinata,3026,6
+20151,Pinata,3026,6
+20173,Pinata,3026,6
+20195,Pinata,3026,6
+20217,Pinata,3026,6
+20239,Pinata,3026,6
+20261,Pinata,3026,6
+20283,Pinata,3026,6
+20305,Pinata,3026,6
+20327,Pinata,3026,6
+20081,Party Hats,3026,4
+20052,Sewing Kit,3026,13
+20128,Sewing Kit,3026,18
+20150,Sewing Kit,3026,18
+20172,Sewing Kit,3026,18
+20194,Sewing Kit,3026,18
+20216,Sewing Kit,3026,18
+20238,Sewing Kit,3026,18
+20080,Craft Paper,3026,7
+20031,Party Balloons,3026,6
+20107,Party Streamers,3026,3
+20363,Plant Pot,3027,13
+20386,Bonsai Tree,3027,35
+20032,Garden Hose,3027,30
+20054,Garden Gloves,3027,7
+20130,Garden Gloves,3027,7
+20152,Garden Gloves,3027,7
+20174,Garden Gloves,3027,7
+20196,Garden Gloves,3027,7
+20218,Garden Gloves,3027,7
+20240,Garden Gloves,3027,7
+20262,Garden Gloves,3027,7
+20284,Garden Gloves,3027,7
+20306,Garden Gloves,3027,7
+20328,Garden Gloves,3027,7
+20108,Garden Trowel,3027,8
