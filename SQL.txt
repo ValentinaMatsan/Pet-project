@@ -1,0 +1,80 @@
+-------вивантаження необхідних даних для RFM-аналізу
+
+
+select c.customer_id, 
+        c.customer_name,
+        IFNULL(c.customer_email, 'Невідомо') as email,
+        c.gender,
+        c.age,
+        c.marital_status,        
+        max(op.orders_date) as last_purchase_day,
+        DATE_DIFF(CURRENT_DATE, MAX(op.orders_date), DAY) AS days_since_last_purchase,
+        sum(op.quantity*pt.price) as total_revenue, 
+        ROUND(AVG(op.quantity * pt.price), 2) as avg_total_revenue,
+        count (o.order_id) as count_orders
+from `pet-pro-vm.company_ecom.customers`  as c
+left join `pet-pro-vm.company_ecom.orders` as o on c.customer_id=o.customer_id
+join `pet-pro-vm.company_ecom.orders_products_date` as op on o.order_id=op.order_id
+left join `pet-pro-vm.company_ecom.product_table` as pt on op.product_id=pt.product_id
+    group by c.customer_id, 
+        c.customer_name,
+        email,
+        c.gender,
+        c.age,
+        c.marital_status;
+
+
+
+--------розрахунок NPS 
+
+with Full_customers as (
+      select  r.rating, count (distinct customer_id) as customers
+from `pet-pro-vm.company_ecom.rating` as r
+left join `pet-pro-vm.company_ecom.orders` as o on r.order_id=o.order_id
+group by  r.rating),
+
+Dectators as (
+      select r.rating, count (distinct customer_id) as Dectators_customers
+from `pet-pro-vm.company_ecom.rating` as r
+left join `pet-pro-vm.company_ecom.orders` as o on r.order_id=o.order_id
+where r.rating <=6
+group by r.rating),
+
+Promouter as (
+      select r.rating, count (distinct customer_id) as Promouter_customers
+from `pet-pro-vm.company_ecom.rating` as r 
+left join `pet-pro-vm.company_ecom.orders` as o on r.order_id=o.order_id
+where r.rating >8
+group by r.rating)
+
+select 
+sum(customers) as Full_customers,
+sum(Dectators_customers) as Dectators_customers,
+sum(Promouter_customers) as Promouter_customers,
+round ((sum(Promouter_customers)-sum(Dectators_customers))/sum(customers), 4) as NPS  
+from Full_customers
+full outer join  Dectators on 
+Full_customers.rating=Dectators.rating
+  full outer join Promouter on
+  Dectators.rating=Promouter.rating
+
+
+
+
+--------розрахунок ARPU
+
+
+
+select  
+      orders_date,
+      extract (Year from orders_date)  as Year,
+      extract (month from orders_date)  as Month,
+      count (distinct c.customer_id) as count_customers,
+      sum(op.quantity*pt.price) as total_revenue, 
+      round (sum(op.quantity*pt.price)/count (distinct c.customer_id),0) as ARPU_Month
+from `pet-pro-vm.company_ecom.customers`  as c
+left join `pet-pro-vm.company_ecom.orders` as o on c.customer_id=o.customer_id
+join `pet-pro-vm.company_ecom.orders_products_date` as op on o.order_id=op.order_id
+left join `pet-pro-vm.company_ecom.product_table` as pt on op.product_id=pt.product_id
+    group by orders_date
+    order by Year, Month
